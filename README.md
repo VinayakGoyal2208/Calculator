@@ -34,10 +34,10 @@ Order of Operations (BODMAS) → Handled correctly using JavaScript evaluation.
 **Modern UI** → Glassmorphic style with hover & press effects.
 
 # 📂 Project Structure
-├── index.html   # Calculator structure & logic
-├── style.css    # (Embedded in HTML, can be separated if needed)
-├── script.js    # (Embedded in HTML, can be separated if needed)
-└── README.md    # Project documentation
+├── index.html   # Calculator structure & logic  
+├── style.css    # (Embedded in HTML, can be separated if needed)  
+├── script.js    # (Embedded in HTML, can be separated if needed)  
+└── README.md    # Project documentation  
 
 # 🖥️ Usage
 
