@@ -73,6 +73,9 @@ Order of Operations (BODMAS) → Handled correctly using JavaScript evaluation.
 
 4.&emsp;Designing a modern, user-friendly calculator interface.
 
+<img width="936" height="896" alt="image" src="https://github.com/user-attachments/assets/16ef3113-1f49-40cf-9602-8c970015ae2c" />
+
+
 # 🔗 Links
 
-🚀 Live Demo : https://vinayakgoyal2208.github.io/Calculator/
+🚀 Live Demo : [Click Here](https://vinayakgoyal2208.github.io/Calculator/)
