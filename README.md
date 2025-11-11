@@ -67,7 +67,9 @@ The calculator supports both mouse and keyboard input.
 
 This project is structured for simplicity and easy deployment:
 ```
-Calculator/ ├── index.html # Contains the HTML structure, CSS styles, and JavaScript logic. └── README.md # Project documentation (this file).
+Calculator/
+├── index.html # Contains the HTML structure, CSS styles, and JavaScript logic.
+└── README.md # Project documentation (this file).
 ```
 
 *(Note: All CSS and JavaScript are embedded directly in `index.html` for single-file deployment.)*
