@@ -1,81 +1,73 @@
 # 🧮 Basic Calculator
 
-A modern, responsive calculator built using HTML, CSS, and JavaScript.
-This project was created as part of a front-end assignment to practice UI design, input handling, and JavaScript functionality.
+A modern, responsive calculator built using **HTML**, **CSS**, and **JavaScript**. This project was created as part of a front-end assignment to practice UI design, input handling, and core JavaScript functionality.
 
-# 🚀 Features
+## 🚀 Live Demo
 
-Basic Arithmetic Operations → Addition (+), Subtraction (-), Multiplication (*), Division (/), and Percentage (%).
+[Click Here to Launch Calculator](https://vinayakgoyal2208.github.io/Calculator/)
 
-Order of Operations (BODMAS) → Handled correctly using JavaScript evaluation.
+---
 
-**Memory Functions:**
+## ✨ Features
 
-1.&emsp;M+ → Add current result to memory.
+Your calculator includes both standard and advanced utility functions:
 
-2.&emsp;M- → Subtract current result from memory.
+| Feature Category | Detail | Description |
+| :--- | :--- | :--- |
+| **Core Arithmetic** | `+`, `-`, `*`, `/`, `%` | Supports all basic operations, including **Percentage** calculation. |
+| **Order of Operations** | BODMAS/PEMDAS | Logic relies on JavaScript's native evaluation order for accurate results. |
+| **Memory Functions** | `M+`, `M-`, `MR`, `MC` | Full memory bank support for storing and recalling values in expressions. |
+| **Extra Controls** | `AC`, `⌫`, `00`, `.` | Clear All, Delete Last Character, and advanced numerical input. |
+| **Robustness** | Error Handling | Automatically displays **"Error"** for division by zero and invalid syntax. |
+| **Accessibility** | Keyboard Support | Full support for desktop input (Numbers, Operators, `Enter`, `Backspace`, `Esc`). |
+| **Design** | Modern UI | **Glassmorphic** style with clear, differentiated buttons and interactive hover/press effects. |
 
-3.&emsp;MR → Recall memory value (can be used in expressions).
+---
 
-4.&emsp;MC → Clear memory.
+## 📸 Project Screenshot
 
-**Extra Controls:**
+<img src="https://github.com/user-attachments/assets/16ef3113-1f49-40cf-9602-8c970015ae2c" alt="Basic Calculator User Interface" width="400"/>
 
-1.&emsp;AC → Clear all.
+---
 
-2.&emsp;⌫ → Delete last character.
+## 🧠 Learning Outcomes
 
-3.&emsp;00, 0, . → For precise input.
+This project provided hands-on experience with critical front-end skills:
 
-**Error Handling** → Division by zero and invalid inputs show "Error".
+1.  **DOM Manipulation:** Dynamically updating the display and handling button/keyboard inputs.
+2.  **State Management:** Implementing persistent logic for the calculation string and the separate memory value.
+3.  **Complex Logic:** Developing custom logic for features like **Percentage** and **Memory Recall (MR)** within an `eval()` framework.
+4.  **Modern CSS:** Designing a professional, user-friendly interface using modern CSS techniques (e.g., gradients, shadows).
 
-**Keyboard Support** → Use your keyboard (0-9, +, -, *, /, ., Enter, Backspace, Esc).
+---
 
-**Modern UI** → Glassmorphic style with hover & press effects.
+## 🖥️ Usage Guide
 
-# 📂 Project Structure
-├── index.html   # Calculator structure & logic  
-├── style.css    # (Embedded in HTML, can be separated if needed)  
-├── script.js    # (Embedded in HTML, can be separated if needed)  
-└── README.md    # Project documentation  
+### Getting Started
 
-# 🖥️ Usage
+1.  Clone or download this repository.
+2.  Open the `index.html` file in any modern web browser.
 
-1.&emsp;Clone or download this repository.
+### Performing Calculations
 
-&emsp;i.&emsp;Open index.html in any modern browser.
+The calculator supports both mouse and keyboard input.
 
-2.&emsp;Start calculating:
+* **Mouse:** Simply click the buttons on the screen.
+* **Keyboard:** Use the numeric keypad and keys like `+`, `-`, `*`, `/`. Press `Enter` for `=`, `Backspace` for `⌫`, and `Esc` for `AC`.
 
-3.&emsp;Use mouse clicks on the buttons, or
+### Memory Example
 
-4.&emsp;Use your keyboard for faster input.
+1.  **Store a value:** Enter `9 * 5`, then press `M+`. The memory now holds `45`.
+2.  **Continue calculating:** Enter `10 + 5`, press `=`. The screen shows `15`.
+3.  **Recall Memory:** Press `MR`. The expression becomes `15 + 45`. Press `=` again to get `60`.
 
-# 📝 Example
+---
 
-1.&emsp;Enter 9 * 5, press M+.
+## 📂 Project Structure
 
-&emsp;i.&emsp;Screen shows 45, value stored in memory.
+This project is structured for simplicity and easy deployment:
+```
+Calculator/ ├── index.html # Contains the HTML structure, CSS styles, and JavaScript logic. └── README.md # Project documentation (this file).
+```
 
-2.&emsp;Enter 10 + 5, press = → 15.
-
-3.&emsp;Press MR → Memory value 45 is inserted.
-
-4.&emsp;Expression becomes 15 + 45.
-
-# 🎯 Learning Outcomes
-
-1.&emsp;DOM manipulation with JavaScript.
-
-2.&emsp;Handling both button and keyboard inputs.
-
-3.&emsp;Implementing memory storage logic.
-
-4.&emsp;Designing a modern, user-friendly calculator interface.
-
-<img width="936" height="896" alt="image" src="https://github.com/user-attachments/assets/16ef3113-1f49-40cf-9602-8c970015ae2c" />
-
-
-# 🔗 Links
-
-🚀 Live Demo : [Click Here](https://vinayakgoyal2208.github.io/Calculator/)
+*(Note: All CSS and JavaScript are embedded directly in `index.html` for single-file deployment.)*
